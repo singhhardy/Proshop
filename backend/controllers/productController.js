@@ -22,7 +22,7 @@ const getProductById = asyncHandler( async (req, res) => {
         res.status(404);
         throw new Error('Resource not found')
     }
-    res.status(404).json({message: 'Product Not fou nd'})
+    res.status(404).json({message: 'Product Not found'})
 })
 
 export {
